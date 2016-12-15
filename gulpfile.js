@@ -28,11 +28,19 @@ gulp.task('js', function() {
 		.pipe(browserSync.stream()) // refrescar navegador
 });
 
+gulp.task('images', function() {
+	return gulp
+		.src('./src/images/*')
+		.pipe(gulp.dest('./assets/images'))
+		.pipe(browserSync.stream()) // refrescar navegador
+});
+
 // Watch changes
 gulp.task('watch', function() {
 	gulp.watch('./src/js/*.js', ['js'])
 	gulp.watch('./src/sass/*.scss', ['sass'])
+	gulp.watch('./src/images/*', ['images'])
 	gulp.watch('./*.html').on('change', browserSync.reload)  // ejecuta function cada vez que escuche cambios
 })
 
-gulp.task('default', ['watch', 'serve'])
+gulp.task('default', ['watch', 'serve', 'images'])
