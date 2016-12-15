@@ -1,0 +1,84 @@
+body, html {
+	background: peru;
+	font-size: 16px;
+}
+
+/*UTILITIES*/
+
+.u-dash {
+	text-align: center;
+	color: #fff;
+}
+
+/*HEADER*/
+.header{
+	background: white;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	border-bottom: 1px solid gray;
+	align-items: center;
+}
+
+/*BANNER*/
+.banner{
+	background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050"); height: 500px;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	color: #fff;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	&-title{
+		font-size: 4em;
+	}
+	&-subtitle{
+	font-size:2em;
+	text-align:center;
+	}
+}
+
+/*ABOUT*/
+.about {
+	width: 74%;
+	margin: 0 auto;
+	&-title{
+		font-size: 2.2em;
+		text-align: center;
+	}
+	&-text {
+		text-align: center;
+	}
+	&-contentCols {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		&-col {
+			width: 30%;
+			.img{
+				width: 100%;
+				margin-bottom:30px;
+			}
+		}
+	}
+}
+
+/*WHAT*/
+.what{
+	width: 95%;
+	margin: 0 auto;
+	&-title{
+		font-size: 2.2em;
+		text-align: center;
+	}
+	&-contentCols{
+		display: flex;
+		&-col{
+			margin: 0px 25px;
+			text-align: center;
+		}
+	}
+}
