@@ -1,5 +1,4 @@
 body, html {
-	background: peru;
 	font-size: 16px;
 }
 
@@ -7,7 +6,7 @@ body, html {
 
 .u-dash {
 	text-align: center;
-	color: #fff;
+	color: peru;
 }
 
 /*HEADER*/
@@ -132,6 +131,78 @@ body, html {
 						color: white;
 					}
 				}
+			}
+		}
+	}
+}
+
+// TEAM
+.team {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	&-title{
+		font-size: 2.2em;
+		text-align: center;
+	}
+	&-text{
+		text-align:center;
+	}
+	&-contentCols {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 90px;
+		&-col {
+			width: 25%;
+			.img {
+				width: 132px;
+				border-radius: 50%;
+				border: 4px solid peru;
+			}
+			.title {
+				margin-bottom: 30px;
+			}
+			.text {
+				color: #777;
+			}
+			.contentSocials {
+				border-top: 1px solid #9A9A9A;
+				width: 70%;
+				margin: 0 auto;
+				padding-top: 25px;
+				&-social{
+					margin: 0 10px;
+					color: #9a9a9a;
+				}
+			}
+		}
+	}
+}
+
+// NUMBERS
+.number {
+	text-align: center;
+	&-title{
+	font-size: 2.2em;
+	text-align: center;
+	}
+	&-subtitle{
+		text-align:center;
+	}
+	&-contentCols {
+		display: flex;
+		justify-content: space-around;
+		&-col {
+			.title {
+				font-size: 1.6em;
+			}
+			.subtitle {
+				font-size: 1.1em;
+			}
+			.numbers {
+				font-size:3em;
+				color: #9A9A9A;
 			}
 		}
 	}
