@@ -199,11 +199,44 @@ body, html {
 			}
 			.subtitle {
 				font-size: 1.1em;
+				margin-bottom: 10px;
 			}
 			.numbers {
 				font-size:3em;
-				color: #9A9A9A;
+				color: peru;
+				font-weight: 100;
 			}
 		}
+	}
+}
+
+// FOOTER
+.footer {
+	display: flex;
+	justify-content: space-between;
+	background: #242424;
+	color: #777777;
+	height: 70px;
+	line-height: 70px;
+	font-size: 0.8em;
+	margin-top: 100px;
+	&-list{
+		display: flex;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		&-item {
+			margin-right: 15px;
+			.link {
+				color: #777777;
+				text-decoration: none;
+				&:hover {
+					color: white;
+				}
+			}
+		}
+	}
+	&-text {
+		margin: 0;
 	}
 }
