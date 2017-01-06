@@ -17,6 +17,11 @@ body, html {
 	height: 50px;
 	border-bottom: 1px solid gray;
 	align-items: center;
+	&-menu {
+		&-icon {
+			font-size:1.5em;
+		}
+	}
 }
 
 /*BANNER*/
@@ -31,12 +36,18 @@ body, html {
 	flex-direction:column;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 	&-title{
 		font-size: 4em;
 	}
 	&-subtitle{
 	font-size:2em;
 	text-align:center;
+	}
+	&-arrow {
+		font-size:3em;
+		position: absolute;
+		bottom: 0;
 	}
 }
 
@@ -75,9 +86,13 @@ body, html {
 	}
 	&-contentCols{
 		display: flex;
+		margin-top: 80px;
 		&-col{
 			margin: 0px 25px;
 			text-align: center;
+			.ico {
+				font-size:8em;
+			}
 		}
 	}
 }
@@ -174,6 +189,7 @@ body, html {
 				&-social{
 					margin: 0 10px;
 					color: #9a9a9a;
+					font-size: 2em;
 				}
 			}
 		}
@@ -238,5 +254,11 @@ body, html {
 	}
 	&-text {
 		margin: 0;
+	}
+	&-contentSocials {
+		&-social {
+			font-size:1.6em;
+			margin-left:10px;
+		}
 	}
 }
