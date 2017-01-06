@@ -8,6 +8,9 @@ body, html {
 	text-align: center;
 	color: peru;
 }
+.u-container {
+		padding: 0 4%;
+}
 
 /*HEADER*/
 .header{
@@ -78,7 +81,6 @@ body, html {
 
 /*WHAT*/
 .what{
-	width: 95%;
 	margin: 0 auto;
 	&-title{
 		font-size: 2.2em;
@@ -99,7 +101,6 @@ body, html {
 
 // PREMIUM
 .premium{
-	width: 85%;
 	margin: 0 auto;
 	&-title{
 		font-size: 2.2em;
@@ -154,7 +155,6 @@ body, html {
 // TEAM
 .team {
 	text-align: center;
-	width: 85%;
 	margin: 0 auto;
 	&-title{
 		font-size: 2.2em;
@@ -198,6 +198,7 @@ body, html {
 
 // NUMBERS
 .number {
+	margin-top: 150px;
 	text-align: center;
 	&-title{
 	font-size: 2.2em;
