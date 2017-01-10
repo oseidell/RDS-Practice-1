@@ -1,5 +1,6 @@
 body, html {
 	font-size: 16px;
+	font-family: 'Droid Serif', serif;
 }
 
 /*UTILITIES*/
@@ -34,6 +35,9 @@ body, html {
 	height: 50px;
 	border-bottom: 1px solid gray;
 	align-items: center;
+	&-logo {
+		font-family: 'Raleway', sans-serif;
+	}
 	&-menu {
 		&-icon {
 			font-size:1.5em;
@@ -59,11 +63,16 @@ body, html {
 		width: 450px;
 	}
 	&-title{
-		font-size: 4em;
+		font-size: 8em;
+		font-weight: 100;
+		font-family: 'Raleway', sans-serif;
+		margin-bottom: 50px;
+		margin-top: 0;
 	}
 	&-subtitle{
-	font-size:2em;
+	font-size:1.5em;
 	text-align:center;
+	margin-top: 50px;
 	}
 	&-arrow {
 		font-size:3em;
@@ -79,9 +88,13 @@ body, html {
 	&-title{
 		font-size: 2.2em;
 		text-align: center;
+		font-family: 'Raleway', sans-serif;
 	}
 	&-text {
 		text-align: center;
+		color: #777777;
+		margin-bottom: 50px;
+		margin-top: 40px;
 	}
 	&-contentCols {
 		display: flex;
@@ -103,6 +116,7 @@ body, html {
 	&-title{
 		font-size: 2.2em;
 		text-align: center;
+		font-family: 'Raleway', sans-serif;
 	}
 	&-contentCols{
 		display: flex;
@@ -112,6 +126,10 @@ body, html {
 			text-align: center;
 			.ico {
 				font-size:8em;
+				color: peru;
+			}
+			.text {
+				color: #777777;
 			}
 		}
 	}
@@ -123,9 +141,11 @@ body, html {
 	&-title{
 		font-size: 2.2em;
 		text-align: center;
+		font-family: 'Raleway', sans-serif;
 	}
 	&-text{
 		text-align:center;
+		color: #777777;
 	}
 	&-contentCards{
 		display: flex;
@@ -177,9 +197,11 @@ body, html {
 	&-title{
 		font-size: 2.2em;
 		text-align: center;
+		font-family: 'Raleway', sans-serif;
 	}
 	&-text{
 		text-align:center;
+		color: #777777;
 	}
 	&-contentCols {
 		display: flex;
@@ -221,9 +243,11 @@ body, html {
 	&-title{
 	font-size: 2.2em;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 	}
 	&-subtitle{
 		text-align:center;
+		color: #777777;
 	}
 	&-contentCols {
 		display: flex;
