@@ -1,0 +1,50 @@
+@media (max-width: 991px) {
+
+	// ABOUT
+	.about {
+		&-contentCols {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			&-col {
+				width: 50%
+			}
+		}
+	}
+
+	// WHAT
+	.what {
+		&-contentCols {
+			flex-direction: column;
+			&-col{
+				margin-bottom: 100px;
+			}
+		}
+	}
+
+	// PREMIUM
+	.premium {
+		&-contentCards {
+			justify-content: space-between;
+			&-card {
+				max-width: 49%;
+			}
+		}
+	}
+
+	// TEAM
+	.team {
+		&-contentCols {
+			flex-wrap: wrap;
+			justify-content: center;
+			&-col {
+				width: 90%;
+				margin-bottom: 30px;
+				&:nth-child(4) {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+}
