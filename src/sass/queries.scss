@@ -101,9 +101,19 @@
 	.premium {
 		&-contentCards {
 			justify-content: space-between;
-			&-card {
-				max-width: 100%;
+				&-card {
+					max-width: 100%;
+				}
 			}
 		}
 	}
-}
+
+@media (max-width: 466px) {
+
+	// BANNER
+	.banner {
+		.u-dash {
+			width: 80%;
+			}
+		}
+	}
