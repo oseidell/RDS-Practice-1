@@ -48,3 +48,39 @@
 	}
 
 }
+
+@media (max-width: 767px) {
+
+	// ABOUT
+	.about {
+		&-contentCols {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			&-col {
+				width: 65%
+			}
+		}
+	}
+
+	// NUMBERS
+	.number {
+		&-contentCols {
+			flex-direction: column;
+		}
+	}
+
+	// FOOTER
+	.footer {
+		flex-direction: column;
+		text-align: center;
+		height: auto;
+		&-list {
+			display: block;
+		}
+		&-text {
+		}
+		&-contentSocials {
+		}
+	}
+}
